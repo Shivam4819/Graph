@@ -18,6 +18,20 @@ public class Graph {
         // TODO code application logic here
         MatrixRepresentation m=new MatrixRepresentation();
         m.create();
+      
+        DepthFirstSearch d=new DepthFirstSearch();
+        d.graphUsingList();
+        d.displayListGraph();
+        d.dfs();
+       
+        LinkListRepresentation l= new LinkListRepresentation();
+        l.graphUsingList();
+        l.displayListGraph();
+       
+        MotherVertex mother= new MotherVertex();
+        mother.graphCreation();
+        mother.displayGraph();
+        mother.mothervertex();
     }
     
 }
